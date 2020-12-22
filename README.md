@@ -26,4 +26,6 @@ Out[3]:=
 Manipulate the curves in real time.
 ```
 In[4]:= Manipulate[Graphics[BezierCurve[kCurveClosed[pts]], PlotRange -> {{-5, 5}, {-5, 5}}], {{pts, {{-1, 0}, {0, 1}, {1, 0}, {2, 1}}}, Locator}]
+Out[4]:= 
 ```
+![](http://people.tamu.edu/~yanzp/projects/kCurves/closed.png)
