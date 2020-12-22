@@ -29,3 +29,8 @@ In[4]:= Manipulate[Graphics[BezierCurve[kCurveClosed[pts]], PlotRange -> {{-5, 5
 Out[4]:= 
 ```
 ![](http://people.tamu.edu/~yanzp/projects/kCurves/closed.png)
+
+## Code format
+Plain Mathematica code format may be not reading friendly. Here's the screen shot of the code in the .nb format for some one doesnot have Wolfram Mathematica installed.
+
+https://raw.githubusercontent.com/zhipeiyan/kappa-Curves/main/reading.svg
