@@ -28,6 +28,11 @@ Out[4]:=
 ```
 ![](http://people.tamu.edu/~yanzp/projects/kCurves/closed.png)
 
+## Standalone version
+Check https://github.com/zhipeiyan/kappa-Curves/releases
+
+No package files needed.
+
 ## Code format
 Plain Mathematica code format may be not reading friendly. Here's the screen shot of the code in the .nb format for some one doesnot have Wolfram Mathematica installed.
 
