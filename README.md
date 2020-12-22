@@ -3,8 +3,6 @@ This is the original Wolfram Mathematica implementation of the Siggraph 2017 pap
 
 http://people.tamu.edu/~yanzp/projects/kCurves/kCurves.pdf
 
-More details can be found from http://people.tamu.edu/~yanzp/projects/kCurves/mma.html
-
 ## Usage
 Put the .wl package in the same path of your notebook file and load the package
 ```
