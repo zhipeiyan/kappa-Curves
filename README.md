@@ -4,6 +4,7 @@ This is the original Wolfram Mathematica implementation of the Siggraph 2017 pap
 http://people.tamu.edu/~yanzp/projects/kCurves/kCurves.pdf
 
 ## Usage
+### Wolfram Mathematica
 Put the .wl package in the same path of your notebook file and load the package
 ```
 In[1]:= Get[NotebookDirectory[] <> "kCurves.wl"]
@@ -19,6 +20,21 @@ In[3]:= Graphics[BezierCurve[%]]
 Out[3]:= 
 ```
 ![](http://people.tamu.edu/~yanzp/projects/kCurves/four.png)
+
+### C++
+Download the [Eigen](https://eigen.tuxfamily.org/index.php) library.
+
+Include the header file `kCurves.h`
+
+The declaration of the two computing functions are
+```
+std::vector<std::vector<Eigen::Vector2d>> kCurveClosed(std::vector<Eigen::Vector2d>);
+std::vector<std::vector<Eigen::Vector2d>> kCurveOpen(std::vector<Eigen::Vector2d>);
+```
+
+The input format `std::vector<Eigen::Vector2d>` is a list of your control points in 2D.
+
+The output format is a list of triple points. Each triple represents the three control points of a quadratic Bezier curve segment according to your input points. The output vector has the same length as your input points for closed curves, and two shorter than your input points for open curves.
 
 ## Live Demo
 Manipulate the curves in real time.
