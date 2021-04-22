@@ -1,7 +1,7 @@
 # &kappa;-Curves: Interpolation at Local Maximum Curvature
 This is the original Wolfram Mathematica implementation of the Siggraph 2017 paper
 
-http://people.tamu.edu/~yanzp/projects/kCurves/kCurves.pdf
+http://zhipeiyan.github.io/projects/kCurves/kCurves.pdf
 
 ## Usage
 ### Wolfram Mathematica
@@ -19,7 +19,7 @@ Draw the curve
 In[3]:= Graphics[BezierCurve[%]]
 Out[3]:= 
 ```
-![](http://people.tamu.edu/~yanzp/projects/kCurves/four.png)
+![](http://zhipeiyan.github.io/projects/kCurves/four.png)
 
 ### C++
 Download the [Eigen](https://eigen.tuxfamily.org/index.php) library.
@@ -42,7 +42,7 @@ Manipulate the curves in real time.
 In[4]:= Manipulate[Graphics[BezierCurve[kCurveClosed[pts]], PlotRange -> {{-5, 5}, {-5, 5}}], {{pts, {{-1, 0}, {0, 1}, {1, 0}, {2, 1}}}, Locator}]
 Out[4]:= 
 ```
-![](http://people.tamu.edu/~yanzp/projects/kCurves/closed.png)
+![](http://zhipeiyan.github.io/projects/kCurves/closed.png)
 
 ## Standalone version
 Check https://github.com/zhipeiyan/kappa-Curves/releases
